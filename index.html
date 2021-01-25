@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>Eat Healthy</title>
+<style>
+    body {
+      padding: 25px;
+      background-color: white;
+      color: black;
+      font-size: 25px;
+    }
+
+    .dark-mode {
+      background-color: black;
+      color: white;
+    }
+    </style>
+</head>
+<body>
+    <button onclick="myFunction()">Light Dark Mode Button</button>
+    <h1 style="color:rgb(0, 255, 229);text-transform:uppercase;"><p align=center>
+    <img src="Pic1.jpeg" style="float:left;width:100px;height:100px;">
+    <img src="Pic1.jpeg" style="float:right;width:100px;height:100px;">
+    Eat Healthy</p></h1>
+    
+    <ul>
+        <li>Do not get thirsty</li>
+        <li>Get active and be a healthy weight</li>
+        <li>Eat less salt</li>
+        <li>Cut down on saturated fat and sugar</li>
+     </ul>
+     <p>Will you also follow these habits to Stay Healthy</p>
+     <p>When you fill the details and click on submit a document will be downloaded as proof</p>
+     <p>Get your free diet chart <a href="https://coder-smart574.github.io/Diet-Chart/">here</a></p>
+     <form action="Proof.docx">
+        <label for="name">Name:</label><br>
+        <input type="text" id="fname" name="fname" value=""><br>
+        <label for="Vote">Yes No Type Box:</label><br>
+        <input type="text" id="Vote" name="YesNo" value=""><br><br>
+        <input type="submit" value="Submit">
+     </form> 
+     
+<script>
+
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+    
+</body>
+</html>
